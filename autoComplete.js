@@ -1,5 +1,34 @@
 "use strict";
 
+const numPrefixes = [
+  "0803",
+  "0806",
+  "0703",
+  "0706",
+  "0810",
+  "0813",
+  "0814",
+  "0816",
+  "0903",
+  "0906",
+  "0805",
+  "0807",
+  "0705",
+  "0815",
+  "0811",
+  "0905",
+  "0808",
+  "0701",
+  "0708",
+  "0902",
+  "0907",
+  "0901",
+  "0809",
+  "0818",
+  "0817",
+  "0909",
+];
+
 function autocomplete(inp, arr) {
   /*the autocomplete function takes two arguments,
     the text field element and an array of possible autocompleted values:*/
