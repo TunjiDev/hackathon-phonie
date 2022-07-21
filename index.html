@@ -11,8 +11,15 @@
     <form class="form" autocomplete="off">
       <img class="hidden img" src="" />
       <div class="autocomplete">
-        <input class="input" type="text" placeholder="Enter Tel No here.." />
+        <input
+          class="input"
+          type="text"
+          placeholder="Enter Tel No here.."
+          pattern="^[+]234(0808|808|0701|701|0708|708|0902|902|0907|907|0901|901)\d{7}$"
+          title="Airtel Numbers Only!"
+        />
       </div>
+      <input class="submitBtn" type="submit" value="submit" />
     </form>
     <!-- title="must start with " -->
     <!-- pattern="/^(0808|0701|0708|0902|0907|0901)+[0-9]{7}$/" -->
